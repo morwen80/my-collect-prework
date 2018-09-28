@@ -1,3 +1,3 @@
 def my_collect(languages)
-  languages.each {|lang| puts lang.upcase}
+  languages.each {|language| puts language.upcase}
 end
