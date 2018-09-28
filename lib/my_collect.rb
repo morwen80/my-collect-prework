@@ -1,5 +1,6 @@
+
 def my_collect(languages)
-  languages.each {|language| return language.upcase}
+  my_collect(languages) {|language| return language.upcase}
 end
 
 def my_collect(student)
