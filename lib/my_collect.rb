@@ -1,3 +1,3 @@
 def my_collect(languages)
-  knowledge(languages) {|lang| lang.upcase}
+  languages.each {|lang| lang.upcase}
 end
